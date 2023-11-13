@@ -1,27 +1,27 @@
-# AC2-WEB
+# AngularTypeScipt
 
-Atividade realizada para a AC2 da matéria de Programação Web. Cujo o objetivo é reforçar o aprendizado adquirido durante as aulas e coloca-lo em prática em diferentes cenários, como mostra a atividade inserida no repositório. 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
 
-## 1.Calcular Média
+## Development server
 
-- Crie uma componente que receberá as notas: AC1, AC2, AG e AF.
-- Calcule a média ao clicar no botão “Calcular” e mostre se está aprovado ou reprovado, a média é 5.
-- Média Final = (AC1 * 0,15) + (AC2 *0,30) + (AG * 0,10) + (AF * 0,45)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
-## 2.Calculadora
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-- Crie um componente que receberá dois números e a operação matemática (soma, subtração, multiplicação ou divisão). Exiba o resultado em um input.
+## Build
 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## 3.Cadastro de Aluno
+## Running unit tests
 
-- Crie um componente com um formulário e os campos: RA, nome, email, celular. Todos os campos deverão ser obrigatórios e associados a um ngModel.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## Running end-to-end tests
 
-## 4.Apólice de Seguro
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-- Crie um formulário de apólice para seguro automobilístico. Para isso o consultor preencherá: Nome do segurado, o sexo, a idade e o valor do automóvel. Mediante a regra abaixo calcule e exiba o valor da apólice de seguro:
-- Se sexo for masculino e idade <= 25: Valor da apólice = 15% do valor do automóvel
-- Se sexo for masculino e idade > 25: Valor da apólice = 10% do valor do automóvel
-- Se sexo for feminino: Valor da apólice = 8% do valor do automóvel
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
